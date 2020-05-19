@@ -1,0 +1,82 @@
+protected-hours: 8
+max-protected-chunks: 15
+time-zone-to-use: EST
+
+lang:
+  command-info: "&c&lFaction&f&lShield &7» &fProtected hours:%hours% %current%."
+  no-factions: "&c&lFaction&f&lShield &7» &fYou're not part of a faction!"
+  no-shield: "&c&lFaction&f&lShield &7» &fThat faction does not have a shield set!"
+  shield-cleared: "&c&lFaction&f&lShield &7» &fCleared that faction's shield!"
+
+
+gui:
+  title: "&e&lFaction Shield"
+  rowsize: 6
+
+  items:
+    fill-material:
+      id: 160
+      subid: 7
+      name: " "
+    protected-material:
+      id: 7
+      subid: 0
+      name: "&e%hour% &a&lProtected"
+      lore:
+        - "&7During this hour your walls can't be damaged"
+    not-protected-material:
+      id: 46
+      subid: 0
+      name: "&e%hour% &c&lNot-Protected"
+      lore:
+        - "&7During this hour your walls can be damaged"
+    #0 TO 1 AM
+    0:
+      slot: 10
+    #1 TO 2 AM
+    1:
+      slot: 11
+    2:
+      slot: 12
+    3:
+      slot: 19
+    4:
+      slot: 20
+    5:
+      slot: 21
+    6:
+      slot: 28
+    7:
+      slot: 29
+    8:
+      slot: 30
+    9:
+      slot: 37
+    10:
+      slot: 38
+    11:
+      slot: 39
+    12:
+      slot: 14
+    13:
+      slot: 15
+    14:
+      slot: 16
+    15:
+      slot: 23
+    16:
+      slot: 24
+    17:
+      slot: 25
+    18:
+      slot: 32
+    19:
+      slot: 33
+    20:
+      slot: 34
+    21:
+      slot: 41
+    22:
+      slot: 42
+    23:
+      slot: 43

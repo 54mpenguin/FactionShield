@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Project Output">
+    <output-path>$PROJECT_DIR$/../../Project Output</output-path>
+    <root id="archive" name="FactionShield.jar">
+      <element id="module-output" name="FactionShield" />
+    </root>
+  </artifact>
+</component>

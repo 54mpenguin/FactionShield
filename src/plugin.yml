@@ -1,0 +1,15 @@
+name: Faction-Shield
+version: 1.0
+author: 54mpenguin
+website: https://54mpenguin.com
+description: Adds a shield for your factions.
+main: me.fiftyfour.factionshield.Main
+depend: [Factions]
+
+permissions:
+  factionshield.use:
+    description: setup a faction shield
+  factionshield.info:
+    description: get info on a faction's shield
+  factionshield.admin:
+    description: clear a faction shield
