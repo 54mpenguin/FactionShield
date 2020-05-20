@@ -1,7 +1,7 @@
 # FactionShield
 Factionshield for Vector Network
 
-#Disclaimer: 
+# Disclaimer: 
 This plugin was a fork of another faction shield plugin (I have forgotten the name unfortunately) 
 and is not entirely my own work!
 
